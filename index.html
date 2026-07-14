@@ -3,7 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> My Portfolio - Bootstrap </title>
+    <title>   Apholos Technology | Web Development, AI Solutions & Digital Experiences </title>
+    <meta name="description" 
+          content="
+          Apholos Technology creates modern websites, AI-powered solutions, 
+          UI designs, and digital experiences that help businesses grow in 
+          the future of technology.
+          ">
+    <meta name="keywords" 
+          content="
+          web developer,
+          website development,
+          Bootstrap developer,
+          AI integration,
+          UI UX design,
+          digital solutions,
+          Apholos Technology,
+          La Trinidad Benguet developer
+          ">
+    <meta name="author" content="Joseph Emerald - Apholos Technology">a
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/style.css" type="text/css" />
@@ -87,7 +105,7 @@
                         Explore Services
                     </a> 
                     
-                    <a href="#contact" class="btn btn-outline-primary btn-lg rounded-pill px-4">
+                    <a href="#contacts" class="btn btn-outline-primary btn-lg rounded-pill px-4">
                         Contact Us 
                     </a>
                 </div>
@@ -360,26 +378,26 @@
                                 </div>
                             </div>
                             <div class="col-lg-7">
-                                <form>
+                                <form action="https://formspree.io/f/mjgnkbqk" method="POST">
                                     <div class="row g-3">
                                         <div class="col-md-6">
-                                            <input type="text" class="form-control" placeholder="Your Name" />
+                                            <input type="text" name="name"class="form-control" placeholder="Your Name" required/>
                                         </div>
 
                                         <div class="col-md-6">
-                                            <input type="email" class="form-control" placeholder="Your Email" />
+                                            <input type="email" name="email" class="form-control" placeholder="Your Email" required/>
                                         </div>
 
                                         <div class="col-12">
-                                            <input type="text" class="form-control" placeholder="Subject" />
+                                            <input type="text" name="subject" required class="form-control" placeholder="Subject" />
                                         </div>
 
                                         <div class="col-12">
-                                            <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+                                            <textarea name="message" required class="form-control" rows="5" placeholder="Your Message"></textarea>
                                         </div>
 
                                         <div class="col-12">
-                                            <button class="btn btn-primary rounded-pill px-5">
+                                            <button type="submit" class="btn btn-primary rounded-pill px-5">
                                                 Send Message
                                             </button>
                                         </div>
